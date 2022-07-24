@@ -1,37 +1,76 @@
-## Welcome to GitHub Pages
+# ArmA 3 Dynamic Defense
 
-You can use the [editor on GitHub](https://github.com/darynvanv/a3-dynamic-defence/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/darynvanv/a3-dynamic-defence/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Welcome to ArmA 3 Dynamic Defense!  
+This mission is a work-in-progress by a small South African development team.  
+Inspired by Dynamic Bulwarks, a previous game mode for ArmA 3.  
+  
+## Changelog  
+  
+### v0.3  
+_24 July 2022_
+  
+**Added**  
+➕ HunterKiller Spawner (see [SAEF Toolbox](https://github.com/AngusBethke/saef_toolbox))  
+➕ RespawnHandler (see [SAEF Toolbox](https://github.com/AngusBethke/saef_toolbox))  
+➕ Kill credit notification  
+➕ Global bank notifications  
+  
+  
+**Removed**  
+➖ Default AI spawn method  
+➖ Weapon shop  
+➖ Default spawn system  
+  
+  
+**Fixed**  
+🔧 AI wondering off in a random direction. HunterSpawner is now responsible for AI movements  
+🔧 Players respawning on death  
+  
+  
+**Changed**  
+⚙️ Moved object shop to the Trader  
+  
+  
+**Bugs**  
+👾 End of mission loop after all players are dead  
+  
+  
+**Roadmap**  
+📍v0.4 will address the issues above, as well as bring in airdrops and alternate loot options  
+  
+  
+#### Mission is currently `Playable`
+  
+----  
+  
+### v0.2  
+_18 February 2022_
+  
+**Added**  
+➕ Loot Spawning  
+➕ Player Wallet  
+➕ Player Bank  
+➕ Global Bank  
+➕ Location Voting via a randomly chosen player.  
+  
+  
+**Removed**  
+➖ Mission Options - most options are hardcoded to manage performance, reduce variablesm and quicken mission start-up.  
+  
+  
+**Fixed**  
+🔧 AI not actively moving towards the crate  
+🔧 Defense Objects not responding to ACE actions  
+  
+  
+**Changed**  
+⚙️ Area limit is a hard limit of 250m  
+⚙️ AI outside of 300m will be deleted in cleanup  
+⚙️ 90% of interactions are ACE interactions  
+  
+  
+**Bugs**  
+👾 Some AI wonder off in a random direction  
+  
+  
+#### Mission is currently `Playable` 
