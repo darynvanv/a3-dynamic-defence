@@ -1,0 +1,47 @@
+/*--------------*
+Description.ext 
+See https://community.bistudio.com/wiki/Description.ext	
+*----------------*/
+
+// RESPAWN SETTINGS
+respawn = 3;										// 3 or "BASE" - Respawn in base.
+respawnButton = 0;									// Disable respawn button
+respawnDelay = 10;									// Set respawn delay in seconds.
+respawnVehicleDelay = 60;							// Set vehicle respawn delay in seconds.
+respawnDialog = 0;									// Show the scoreboard and respawn countdown timer for a player if he is killed with respawnType 3. Default is 1 (true).
+respawnOnStart = -1;								// Dont respawn on start. Don't run respawn script on start. 1 to respawn player when he joins the game. Available only for INSTANT and BASE respawn types.
+
+// BIS CORPSE & WRECK MANAGEMENT - REMOVED DUE TO PERFORMANCE ISSUES
+
+// MISSION SETTINGS
+disabledAI = 1;										// When 1, removes all playable units which do not have a human player. When 0, a logging out player will have AI take control of his character. Default value is 0. (MP)
+debriefing = 1;										// Defines if the debriefing is shown or not at the end of the mission.
+showGPS = 1;										// Enables/Disables the GPS
+showGroupIndicator = 1;								// When set to 1, changes default GPS mini map into a radar like display that indicates group members relative position to the player
+enableDebugConsole = 1;								// Dangerous in MP. Allows access to the Debug Console outside of the editor during normal gameplay. 1 = Available in SP and for hosts / logged in admins
+forceRotorLibSimulation = 0; 						// Force enable or disable RotorLib. Default value: 0 - options based; 1 - force enable; 2 - force disable
+
+author = "Dark Coffee Studios"; 
+onLoadName = "Dynamic Defense";
+onLoadMission = "Taking over Malden for Strategic Purposes"; 
+
+class Header
+{
+	gameType = COOP;
+	minPlayers = 1;
+	maxPlayers = 30;
+};
+
+class CfgFunctions
+{
+	#include "functions\Functions.hpp"
+};
+
+#include "dialog\defines.hpp"
+class RscTitles
+{
+	#include "dialog\hud.hpp"
+};
+
+#include "dialog\bank.hpp"
+#include "dialog\shopBuilding.hpp"
