@@ -4,6 +4,9 @@ Welcome to ArmA 3 Dynamic Defense!
 This mission is a work-in-progress by a small South African development team.  
 Inspired by Dynamic Bulwarks, a previous game mode for ArmA 3.  
   
+This game mode requires the following mod preset:  
+[Download Preset Config](https://github.com/darynvanv/a3-dynamic-defence/blob/master/Arma%203%20Preset%20Dynamic%20Defense.html)
+  
 ## Changelog  
   
 ### v0.3  
