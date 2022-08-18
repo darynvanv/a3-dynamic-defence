@@ -9,6 +9,54 @@ This game mode requires the following mod preset:
   
 ## Changelog  
   
+### v0.4  
+_18 August 2022_
+  
+**Added**  
+➕ Trader Upgrade Shop  
+➕ Trader Upgrade - Ammo Shop  
+➕ Trader Upgrade - Pistol Shop  
+➕ Trader Upgrade - SMG Shop  
+➕ Trader Upgrade - Rifle Shop  
+➕ Trader Upgrade - Sniper Shop  
+➕ Trader Upgrade - Explosives Shop  
+➕ Trader Upgrade - Support Shop  
+➕ Supports - Mortar, Howitzer, Rocket Artillery  
+➕ Trader Item Selling  
+➕ Wave Start and End Notifications  
+➕ Hostile Vehicle Spawning  
+➕ Customizable Hostile Presets  
+  
+  
+**Removed**
+➖ Default AI preset  
+  
+**Fixed**  
+🔧 Trader Invulnerability   
+🔧 AI no longer get stuck in buildings   
+  
+  
+**Changed**  
+⚙️ Item price calculations  
+⚙️ Batch unit spawning to reduce load on server  
+⚙️ Trader can now be used as a bank as well  
+  
+  
+**Bugs**  
+👾 End of mission loop after all players are dead  
+👾 Players can be hurt in Lobby  
+👾 Loot spawns on top of old loot  
+  
+  
+**Roadmap**  
+📍v0.5 will address the issues above, as well as bring in game improvements  
+  
+  
+#### Mission is currently `Playable`
+  
+----  
+  
+  
 ### v0.3  
 _24 July 2022_
   
